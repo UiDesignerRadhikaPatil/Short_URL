@@ -156,7 +156,7 @@ body{
 }
 .back{
     position: absolute;
-    top: 42%;
+    top: 70px;
     left: -50%;
     width: 250%;
     height: 850%;
@@ -584,7 +584,9 @@ font-size: 1.5rem;
     .content .more-info .boxes div{
         text-align: center;
     }
-    
+    .copied{
+        margin-left: 0;
+    }
     .content .header{
         margin:  3rem 0 0 0;
     }
