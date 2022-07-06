@@ -3,8 +3,13 @@ let shortBtn = document.getElementById('short-btn')
 let error = document.getElementById('error')
 let output  = document.getElementById('output')
 let footer = document.querySelector('.footer')
+let menu = document.getElementById('menu')
+let mobileHeader = document.getElementById('mobileHeader')
 let expression = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi
 
+menu.onclick = ()=>{
+    mobileHeader.classList.toggle('active')
+}
 link.onblur = () =>{
     if(link.value == ""){
         if(error.innerText == ""){
