@@ -156,7 +156,7 @@ body{
 }
 .back{
     position: absolute;
-    top: 70px;
+    top: 42%;
     left: -50%;
     width: 250%;
     height: 850%;
@@ -495,9 +495,7 @@ font-size: 1.5rem;
 }
 /* End the end */
 /* End of Footer */
-.mobile-header{
-    display: none;
-}
+
 .content .header .menu{
     display: none;
 }
@@ -698,12 +696,14 @@ font-size: 1.5rem;
             color: var(--Grayish-Violet);
             cursor: pointer;
         }
-        .active{
-            display: block;
+        .content .header .mobile-header.active{
+            transform: scale(100%, 100%);
         }
         .content .header .mobile-header{
-            /* display: block; */
             position: relative;
+            transform: scale(0,0);
+            transition: transform 0.2s linear;
+            transform-origin: top right;
         }
         .content .header {
             position: relative;
@@ -768,4 +768,3 @@ font-size: 1.5rem;
             z-index: 99;
         }
     }
-
