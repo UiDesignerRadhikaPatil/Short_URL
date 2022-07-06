@@ -495,7 +495,9 @@ font-size: 1.5rem;
 }
 /* End the end */
 /* End of Footer */
-
+.content .header .mobile-header{
+    display: none;
+}
 .content .header .menu{
     display: none;
 }
@@ -738,6 +740,7 @@ font-size: 1.5rem;
             z-index: 99;
             width: 100%;
             border-radius: 0.5rem;
+            display: block;
         }
         .content .header .mobile-header .register-mobile div:first-child{
             margin-top: 2rem;
