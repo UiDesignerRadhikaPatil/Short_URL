@@ -19,6 +19,15 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--Grayish-Violet);
+    border-radius: 10px;
+    opacity: 0.5;
 }
 .full-page{
     overflow: hidden;
