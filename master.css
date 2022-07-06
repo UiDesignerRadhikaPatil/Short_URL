@@ -687,6 +687,9 @@ font-size: 1.5rem;
         .content .header .register{
             display: none;
         }
+        #error{
+            margin-top: 2rem;
+        }
         .content .header{
             align-items: center;
         }
