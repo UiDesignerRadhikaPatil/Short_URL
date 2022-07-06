@@ -13,7 +13,6 @@ menu.onclick = ()=>{
 link.onblur = () =>{
     if(link.value == ""){
         if(error.innerText == ""){
-            link.style.marginBottom = "2rem"
             errorMsg = 'Please enter a link'
         let msg = document.createTextNode(errorMsg)
         error.appendChild(msg)
@@ -21,7 +20,6 @@ link.onblur = () =>{
         link.style.border = '2px solid var(--Red)'
     }else{
         error.innerText = ""
-        link.style.marginBottom = "1rem"
         link.style.border= 'unset'
     }
 }
@@ -44,11 +42,9 @@ shortBtn.onclick = () =>{
             link.value = "";
         })
     }else if(link.value == ""){
-        link.style.marginBottom = "2rem"
         error.innerText = 'Please enter a link'
         link.style.border = '2px solid var(--Red)'
     }else{
-        link.style.marginBottom = "2rem"
         error.innerText = 'Please etner a valid link'
         link.style.border = '2px solid var(--Red)'
     }
