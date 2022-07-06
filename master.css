@@ -700,6 +700,7 @@ font-size: 1.5rem;
             font-size: 2.5rem;
             color: var(--Grayish-Violet);
             cursor: pointer;
+            z-index:99;
         }
         .content .header .mobile-header.active{
             transform: scale(100%, 100%);
