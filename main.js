@@ -28,7 +28,7 @@ shortBtn.onclick = () =>{
     if(link.value.match(expression)){
         fetch(`https://api.shrtco.de/v2/shorten?url=${link.value}`)
         .then(response => response.json())
-        .then(async data =>{
+        .then( data =>{
             let html = `
             <div class="shorten-link">
             <p>${link.value}</p>
