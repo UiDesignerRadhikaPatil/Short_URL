@@ -1,5 +1,5 @@
 # Frontend Mentor - Shortly URL shortening API Challenge
-## Live Demo: https://radhikapatil.github.io/Short-URL/
+## Live Demo: (https://short-url-two-nu.vercel.app/)
 ## The challenge
 
 Your challenge is to build out this landing page, integrate with the [shrtcode API](https://app.shrtco.de/) and get it looking as close to the design as possible.
